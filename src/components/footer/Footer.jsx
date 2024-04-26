@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
     FaFacebookF,
     FaInstagram,
@@ -11,6 +11,7 @@ import ContentWrapper from "../contentWrapper/ContentWrapper";
 import "./style.scss";
 
 const Footer = () => {
+
     return (
         <footer className="footer">
             <ContentWrapper>
@@ -28,19 +29,28 @@ const Footer = () => {
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
+                    Buy me Coffee - <span className="idTxt">imaditya_29</span>
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
-                        <FaFacebookF />
+                    <a 
+                    className="link"
+                    href="https://www.facebook.com/fake.stark.522/?locale=hi_IN"><FaFacebookF/></a>  
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                      <a 
+                       className="link"
+                      href="https://www.instagram.com/imaditya_29/">  <FaInstagram /></a>
                     </span>
                     <span className="icon">
-                        <FaTwitter />
+                     <a 
+                      className="link"
+                     href="https://twitter.com/imaditya_29"><FaTwitter /></a>   
                     </span>
                     <span className="icon">
-                        <FaLinkedin />
+                       <a
+                        className="link"
+                       href="https://www.linkedin.com/in/adityapippal/"><FaLinkedin /></a> 
                     </span>
                 </div>
             </ContentWrapper>
