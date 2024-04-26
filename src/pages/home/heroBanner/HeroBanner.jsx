@@ -35,12 +35,12 @@ const HomeBanner = () => {
       <div className="opacity-layer"></div>
       <ContentWrapper>
         <div className="heroBannerContent">
-          <span className="title">Welcome.</span>
-          <span className="Subtitle"> millions of movies,Tv shows and people to discover.Exlpore now</span>
+          <span className="title">CINEVERSE</span>
+          <span className="Subtitle">Explore the Cinematic Universe with CINEVERSE</span>
           <div className="searchInput">
             <input
               type="text"
-              placeholder="Search for a movie or tv show...."
+              placeholder="Search for any movie or tv show.."
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={searchQueryHandler}
             />
