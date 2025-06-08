@@ -24,7 +24,17 @@ A dynamic movie and TV show discovery app built using **React.js**, **Redux Tool
 
 ## 📸 Screenshots
 
-> *Add screenshots here to show off your UI!*
+### 🏠 Homepage
+![CineVerse Homepage](./public/cine.jpg)
+![CineVerse Homepage](./public/cine2.jpg)
+
+### 🎬 Movie Details Page
+![Movie Details](./public/cine4.jpg)
+![Movie Details](./public/cine5.jpg)
+
+### 🎬 Search Result Page
+![Movie Details](./public/cine3.jpg)
+
 
 ## 📦 Installation
 
